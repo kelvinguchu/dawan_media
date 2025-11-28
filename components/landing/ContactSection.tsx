@@ -1,7 +1,7 @@
 "use client";
 
 import * as motion from "motion/react-client";
-import { MapPin, Mail, Phone, Globe, ArrowRight } from "lucide-react";
+import { MapPin, Mail, Phone, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const contactInfo = [
@@ -22,13 +22,7 @@ const contactInfo = [
     title: "Phone",
     value: "+252 62 8881171",
     href: "tel:+25262888117",
-  },
-  {
-    icon: Globe,
-    title: "Website",
-    value: "www.dawanmedia.com",
-    href: "https://www.dawanmedia.com",
-  },
+  }
 ];
 
 export function ContactSection() {

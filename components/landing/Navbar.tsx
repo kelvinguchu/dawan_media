@@ -48,8 +48,8 @@ export function Navbar() {
               src='/dawan-tv.png'
               alt='Dawan Media'
               width={200}
-              height={30}
-              className='h-6 sm:h-[30px] w-auto'
+              height={40}
+              className='h-8 sm:h-10 w-auto'
             />
           </Link>
 
@@ -76,9 +76,12 @@ export function Navbar() {
             {/* Mobile Menu Sheet */}
             <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
               <SheetTrigger asChild>
-                <button className='md:hidden p-2 text-muted-foreground hover:text-foreground hover:bg-muted rounded-lg transition-colors'>
+                <Button
+                  variant='ghost'
+                  size='icon'
+                  className='md:hidden text-muted-foreground hover:text-foreground'>
                   <Menu className='h-5 w-5' />
-                </button>
+                </Button>
               </SheetTrigger>
               <SheetContent side='right' className='min-w-[80vw] px-2'>
                 <SheetHeader>
