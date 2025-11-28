@@ -9,7 +9,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://dawanmedia.com"),
+  metadataBase: new URL("https://www.dawanmedia.com"),
   title: {
     default: "Dawan Media | Africa tells its story in its own voice",
     template: "%s | Dawan Media",
@@ -49,14 +49,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://dawanmedia.com",
+    url: "https://www.dawanmedia.com",
     siteName: "Dawan Media",
     title: "Dawan Media | Africa tells its story in its own voice",
     description:
       "An independent, multilingual media company redefining how the Horn of Africa is represented — through accurate, ethical, and African-led journalism.",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://www.dawanmedia.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "Dawan Media - African-led journalism",
@@ -70,9 +70,10 @@ export const metadata: Metadata = {
       "An independent, multilingual media company redefining how the Horn of Africa is represented.",
     creator: "@dawan_tv",
     site: "@dawan_tv",
+    images: ["https://www.dawanmedia.com/og-image.png"],
   },
   alternates: {
-    canonical: "https://dawanmedia.com",
+    canonical: "https://www.dawanmedia.com",
   },
   verification: {
     // Add these when you have them
