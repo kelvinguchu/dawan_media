@@ -1,0 +1,9 @@
+export { Navbar } from "./Navbar";
+export { HeroSection } from "./HeroSection";
+export { AboutSection } from "./AboutSection";
+export { MissionVisionSection } from "./MissionVisionSection";
+export { PlatformsSection } from "./PlatformsSection";
+export { TeamSection } from "./TeamSection";
+export { WhyDawanSection } from "./WhyDawanSection";
+export { ContactSection } from "./ContactSection";
+export { Footer } from "./Footer";
