@@ -43,7 +43,6 @@ export function AboutSection() {
                 trusted news, analysis, and storytelling that reflects the lived
                 realities of African communities.
               </p>
-
               {/* Stats - Horizontal pill design */}
               <div className='flex flex-wrap gap-3'>
                 {stats.map((stat) => (
