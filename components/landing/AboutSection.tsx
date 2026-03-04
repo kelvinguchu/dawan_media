@@ -7,7 +7,7 @@ import { Languages, Users, Shield } from "lucide-react";
 const stats = [
   { label: "News Platforms", value: "3", icon: Languages },
   { label: "Languages", value: "3", icon: Users },
-  { label: "Since", value: "2018", icon: Shield },
+  { label: "Since", value: "2023", icon: Shield },
 ];
 
 export function AboutSection() {
@@ -42,18 +42,6 @@ export function AboutSection() {
                 digital news platforms and a dedicated mobile app, we produce
                 trusted news, analysis, and storytelling that reflects the lived
                 realities of African communities.
-              </p>
-              <p className='text-lg text-zinc-600 dark:text-zinc-400 mb-8 leading-relaxed'>
-                Our name,{" "}
-                <span className='text-dawan-600 font-semibold'>
-                  &quot;Dawan,&quot;
-                </span>{" "}
-                means{" "}
-                <span className='text-dawan-600 font-semibold'>
-                  &quot;dawn&quot;
-                </span>{" "}
-                — representing a new era in African-led journalism that
-                prioritizes accuracy, ethics, and community trust.
               </p>
 
               {/* Stats - Horizontal pill design */}
